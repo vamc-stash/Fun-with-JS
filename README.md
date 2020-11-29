@@ -1,8 +1,8 @@
 # Fun-with-JS
 
 ## Concepts
-1. [Execution Context]
-   - https://medium.com/@happymishra66/execution-context-in-javascript-319dd72e8e2c
+1. Execution Context
+   - [Execution context, Scope chain and JavaScript internals](https://medium.com/@happymishra66/execution-context-in-javascript-319dd72e8e2c)
 
 ## Examples
 
