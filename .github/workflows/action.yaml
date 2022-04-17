@@ -16,6 +16,3 @@ jobs:
         run: |
           pwd
           ls -lR
-  mongo-db-setup:
-  node-server:
-  react-client:
