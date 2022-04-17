@@ -1,0 +1,21 @@
+name: sample-node-react workflow
+on:
+  push:
+    branches-ignore:
+      - master
+  pull-request:
+    branches:
+      - test-*
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checks out current code
+        uses: actions/checkout@v3
+      - name: print list of files in current directory
+        run: |
+          pwd
+          ls -lR
+  mongo-db-setup:
+  node-server:
+  react-client:
